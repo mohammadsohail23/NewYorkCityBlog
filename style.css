@@ -1,0 +1,125 @@
+/* Global Styles */
+body {
+  background: #e6e6e6;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Bar */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #010e80;
+  display: table;
+  width: 100%;
+}
+
+nav li {
+  display: table-cell;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 30px 30px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+/* Header */
+header {
+  margin: 14px;
+}
+
+/* Headings with Links */
+h2 a {
+  padding: 33px 25px;
+  color: white;
+  text-decoration: none;
+}
+
+h2 a:hover {
+  background-color: #111;
+}
+
+/* Main Content */
+article {
+  text-align: left;
+  margin: 15px;
+  max-width: 80%;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+/* Images */
+img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  position: relative;
+  right: 28px;
+}
+
+/* Figure Captions */
+figcaption {
+  text-align: left;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+/* Aside */
+aside {
+  left: 10px;
+  border: 5px solid #010e80;
+  padding: 15px;
+  max-width: 80%;
+  position: relative;
+  font-size: 18px;
+}
+
+/* Footer */
+footer {
+  position: relative;
+  width: 100%;
+  bottom: -100px;
+  background-color: #010e80;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Media Elements */
+video, audio, embed {
+  display: block;
+  margin: 15px auto;
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+video {
+  width: 420px;
+  height: 250px;
+}
+
+embed {
+  width: 400px;
+  height: 458px;
+}
+
+audio {
+  width: 98%;
+}
